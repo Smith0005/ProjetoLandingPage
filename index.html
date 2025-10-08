@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+</style>
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!--MENU SUPERIOR-->
+    <div id="menusuperior">
+         <a href="https://www.escoladnc.com.br/"><img id="logo" src="./imagens/logo.svg" alt="error"></a>
+
+         
+
+    <p id="titulomenu">Dê os primeiros passos da<br>
+                   sua carreira em Tecnologia</p>
+
+    <p id="subtitulomenu">Inscreva-se no curso gratuito de Introdução à<br>
+       Tecnologia da DNC School e aprenda os principais<br>
+       fundamentos para construir experiências efetivas.
+
+    </div>
+   <!--MENU INFORMACIONAL--> 
+    <div id="menuinformacional">
+    
+    <p class="textoinformativo"> <img src="./Icons/certificado.svg" class="icons" id="certificado" alt="error">Certificado de conclusão</p>
+    <p class="textoinformativo"> <img src="./Icons/relogio.svg" class="icons" id="relogio"  alt="error">4 horas de conteúdo</p>
+    <p class="textoinformativo"> <img src="./Icons/camera.svg" class="icons" id="camera" alt="error">Aulas online gravadas</p>
+   
+    </div>
+<!--SEÇÃO VIDEO-->
+<div id="secaovideo">
+    
+    <iframe id="video" width="640" height="360" src="https://www.youtube.com/embed/ni5F2wmCj4g" title="&#39;&#39;Você NÃO VAI se tornar Tech Lead sem diploma&#39;&#39; SERÁ MESMO??" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <div>
+<h1 id="titulovideo">Aprenda com especialistas e<br>
+        comece seu primeiro projeto
+    </h1> <br> <br> 
+    
+    <p id="textovideo">Conheça o processo de desenvolvimento e entenda como utilizar<br>
+       os principais métodos e ferramentas da área para resolver<br>
+       problemas complexos.<br> <br>
+           
+       Conquiste seu certificado e desenvolva um projeto prático para<br>
+       aplicar seus conhecimentos.
+    </p>
+    </div>
+
+</div>
+<!--CARROSEL DE DEPOIMENTOS-->
+<div id="secaodepoimentos">
+
+<h1 id="titulodepoimento">Mais de 500 alunos já iniciaram seus estudos</h1>
+
+<!--DIVISÃO DOS CARDS-->
+    <div id="div-cards">
+        <img id="seta-esquerda" onclick="RolarParaEsquerda()" class="setas" src="./Icons/seta-esquerda.svg" alt="seta.svg">
+        <img id="Leonardo" class="cards" src="./Cards/Leonardo.svg" alt="Leonardo.svg">
+        <img id="Samanta" class="cards"  src="./Cards/Samanta.svg" alt="Samanta.svg">
+        <img id="Bruna" class="cards"  src="./Cards/Bruna.svg" alt="Bruna.svg">
+        <img id="seta-direita" onclick="RolarParaDireita()" class="setas" src="./Icons/seta-direita.svg" alt="direita.svg">
+    </div>
+
+ 
+
+</div>
+
+<!--FORMULÁRIO-->
+<div id="formulario">
+
+    <h1 id="tituloformulario">Comece agora mesmo e dê o próximo passo da sua carreira</h1>
+    <form action="https://api.sheetmonkey.io/form/s7R7pvpUs5PSP8bfhQLAKb" method="post">
+        <input type="text" placeholder="Nome" name="Name" required> <br>
+        <input type="email" placeholder="E-mail" name="Email" required> <br>
+        <input type="number" placeholder="Telefone" name="Phone" required> <br>
+        <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+        <button type="submit">Acesse a ementa grátis</button>
+
+    </form>
+
+
+
+</div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
